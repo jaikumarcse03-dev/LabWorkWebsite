@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}Admin | Change Username{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="card shadow p-4">
+        <h4 class="mb-3 text-primary">Admin – Change Staff Username</h4>
+
+        <form method="POST">
+            <div class="mb-3">
+                <label>Old Username</label>
+                <input type="text" name="old_username" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label>New Username</label>
+                <input type="text" name="new_username" class="form-control" required>
+            </div>
+
+            <button class="btn btn-primary w-100">Update Username</button>
+        </form>
+
+        {% if error %}
+        <div class="alert alert-danger mt-3">{{ error }}</div>
+        {% endif %}
+
+        {% if message %}
+        <div class="alert alert-success mt-3">{{ message }}</div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,22 @@
+User,Date,Category,Work,Comment,Time
+staff1,2026-01-12,Hardware,CPU Check,cpu cleaning and dust work,18:22:53
+staff1,2026-01-12,Hardware,RAM Check,remove and clean and refit,18:22:53
+staff1,2026-01-12,Training,Staff Training,python training attand in PRP,18:23:24
+staff1,2026-01-12,Maintenance,AC Check,four lab ac clean ,18:23:59
+staff1,2026-01-12,Maintenance,Power Check,four lab power will cheacked,18:23:59
+staff1,2026-01-12,Hardware,Keyboard / Mouse Issue,122 lab keyboard will changed,18:24:27
+staff2,2026-01-12,Hardware,Monitor Issue,damage monitor was replaced in 119 lab,18:25:43
+staff2,2026-01-12,Hardware,Keyboard / Mouse Issue,121 lab system 32 and system 65 mouse was replaced,18:25:43
+staff2,2026-01-12,Training,Staff Training,python training attand in PRP,18:25:54
+staff2,2026-01-12,Maintenance,System Cleaning,four lab system fully cleaned,18:26:36
+staff2,2026-01-12,Maintenance,Other Maintenance,four lab cleaning work was compleated,18:26:36
+staff8,2026-01-12,Hardware,CPU Check,full check,18:41:42
+staff8,2026-01-12,Hardware,Monitor Issue,sometime monitor was blinking that issue was cleard,18:41:42
+staff8,2026-01-12,Training,Staff Training,python training attand in PRP,18:41:48
+staff8,2026-01-12,Maintenance,AC Check,four lab ac clean,18:41:54
+staff3,2026-01-12,Shifting,System Shifting,complet,18:43:11
+staff3,2026-01-13,Hardware,CPU Check,full check,17:29:43
+staff3,2026-01-13,Hardware,RAM Check,full cleaning and refit,17:29:43
+staff3,2026-01-13,Hardware,Hard Disk Check,full clean and refit,17:29:43
+staff3,2026-01-13,Hardware,Monitor Issue,damage monitor was replaced in 119 lab,17:29:43
+staff3,2026-01-13,Hardware,Keyboard / Mouse Issue,cleaning and check all key's working or damages,17:29:43

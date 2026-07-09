@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="row g-4">
+
+    {% set categories = [
+        ('Hardware','💻'),
+        ('Software','💿'),
+        ('Network','🌐'),
+        ('Training','🎓'),
+        ('Shifting','🚚'),
+        ('Maintenance','🧹')
+    ] %}
+
+    {% for c, icon in categories %}
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card p-4 text-center h-100 shadow-sm">
+            <h1>{{ icon }}</h1>
+            <h5 class="mt-2">{{ c }}</h5>
+            <a href="{{ url_for('category', category_name=c) }}" 
+               class="btn btn-primary mt-3">
+               Open
+            </a>
+        </div>
+    </div>
+    {% endfor %}
+
+    <!-- 🔥 Separate Card (Outside Loop) -->
+    <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card p-4 text-center h-100 shadow-sm">
+            <h1>📋</h1>
+            <h5 class="mt-2">Other Responsibilities</h5>
+            <a href="{{ url_for('category', category_name='Other Responsibilities') }}" 
+               class="btn btn-primary mt-3">
+               Open
+            </a>
+        </div>
+    </div>
+
+</div>
+{% endblock %}

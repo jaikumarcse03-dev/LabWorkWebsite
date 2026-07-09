@@ -1,0 +1,66 @@
+body {
+    background-color: #f5f7fa;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(130deg, #2455a3, #3497db);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    color: #fff !important;
+}
+
+/* Cards */
+.card {
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    border: none;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    transition: 0.2s;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #2455a3;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1e4585;
+}
+
+/* Tables */
+.table th {
+    background-color: #eef2f7;
+    font-weight: 600;
+}
+
+/* Full width fix */
+.container-fluid {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/* VTOP style slim navbar */
+.vtop-navbar {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+/* Settings button hover effect */
+.settings-btn {
+    transition: all 0.25s ease;
+}
+
+.settings-btn:hover {
+    background-color: #4386eb;   /* Bootstrap primary blue */
+    color: #ffffff;
+}
+.settings-btn:hover span,
+.settings-btn:hover i {
+    color: #ffffff;
+}

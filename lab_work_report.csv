@@ -1,0 +1,51 @@
+Username,Date,Time,Category,Work,Comment
+80450,2026-04-29,10:32:54,Software,OS Crash Fix,119 lab 22 system number
+80454,2026-04-29,10:32:27,Hardware,VGA & HDMI Cable Issues,damage 120 lab
+80454,2026-04-01,14:41:50,Hardware,Others,new problem
+80454,2026-02-14,14:53:55,Software,Others,"linux Octave,symbolic method installation "
+80454,2026-02-14,14:51:26,Maintenance,Lab sweeping & Mapping,First floor four labs fully cleand 
+80454,2026-02-14,14:47:20,Training,Others,pyhon basic programming training 
+80697,2026-02-11,19:03:16,Other Responsibilities,Others,"Workload creation for all Lab staffs , combine the file and send the data to Lab coordinator  "
+80697,2026-02-11,19:00:15,Maintenance,Others,SJT Ground floors All labs as been fully cleaned and mopping done
+80697,2026-02-11,18:59:12,Network,CTS Help Desk Ticket Creation,"Due to exam conducting in SJTG18,SJTG20 to block VTOP, MOOVITOL, Internet access ticked as been raised "
+80697,2026-02-11,18:56:47,Maintenance,Temporary Files Delete,SJTG17 Temporary files as been cleared due exam conducting Principles of Software Engineering lab
+80697,2026-02-11,18:54:26,Software,Software Installation,SJT-G18 BANNER software installation done for 72 systems 
+80697,2026-02-11,18:53:06,Hardware,PC Not Working,SJT-G18 HDMI cable removed after fixed and resolved
+80454,2026-02-10,13:57:42,Hardware,RAM/Memory Issue,122 lab
+80693,2026-02-08,08:40:00,Hardware,Projector Issue,G19 projecter cabel replace
+80454,2026-02-08,08:39:28,Maintenance,System Cleaning,122 lab fully clean
+80454,2026-02-08,08:33:53,Hardware,Mouse/Keyboard Not Working,122 lab hd replace
+admin,2026-02-08,08:33:08,Software,Software Installation,
+admin,2026-02-08,08:33:01,Hardware,Mouse/Keyboard Not Working,sjt g20 System 59 keybord was replaced
+admin,2026-02-05,19:16:45,Software,OS Installation,new
+80450,2026-01-28,13:57:57,Hardware,Hard Disk Issue,122 lab hd replace
+80450,2026-01-28,13:57:41,Hardware,PC Not Working,120 Lab - Sys 31 - Ram issues Solved
+admin,2026-01-27,16:05:01,Hardware,RAM/Memory Issue,120 Lab - Sys 31 - Ram issues Solved
+80697,2026-01-21,19:12:23,Hardware,RAM Issue,122 lan issue resolved
+80697,2026-01-21,19:11:50,Hardware,RAM Issue,122 lan issue resolved
+80693,2026-01-21,19:09:59,Maintenance,System Cleaning,g19 lab
+80693,2026-01-21,19:09:47,Software,OS Installation,new os install in 120 lab
+80693,2026-01-21,19:09:27,Hardware,Keyboard / Mouse Issue,replace in 122 lab pc
+80693,2026-01-21,18:03:25,Hardware,PC Not Working,replace in 122 lab pc
+staff3,2026-01-14,18:07:32,Hardware,Hard Disk Issue,clean refit
+admin,2026-01-14,18:07:04,Network,LAN Not Working,122 lan issue resolved
+admin,2026-01-14,18:06:43,Software,OS Installation,new os install in 120 lab
+admin,2026-01-14,18:06:23,Hardware,RAM Issue,full clean
+admin,2026-01-14,18:06:10,Hardware,PC Not Working,check and resolved
+admin,2026-01-14,14:24,Hardware,RAM Issue,
+admin,2026-01-14,14:24,Hardware,PC Not Working,
+admin,2026-01-14,14:23,Hardware,PC Not Working,
+admin,2026-01-14,14:23,Hardware,PC Not Working,
+admin,2026-01-14,14:23,Hardware,PC Not Working,
+staff3,2026-01-14,14:13,Hardware,Monitor Issue,replace in 122 lab
+staff3,2026-01-14,14:08,Software,OS Installation,
+staff3,2026-01-14,14:08,Software,Software Installation,
+staff3,2026-01-14,14:08,Software,OS Error Fix,
+admin,2026-01-14,14:06,Network,IP Configuration,k
+staff3,2026-01-14,13:14,Hardware,PC Not Working,
+staff3,2026-01-14,13:03,Training,Student Training,
+staff3,2026-01-14,12:59,Hardware,Hard Disk Issue,
+staff3,2026-01-14,12:49,Hardware,RAM Issue,
+staff3,2026-01-14,12:47:03,Hardware,Monitor Issue,
+staff3,2026-01-14,12:46:45,Maintenance,Periodic Maintenance,
+staff3,2026-01-14,12:35:40,Software,,

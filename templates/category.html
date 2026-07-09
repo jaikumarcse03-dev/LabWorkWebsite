@@ -1,0 +1,155 @@
+{% extends "base.html" %}
+{% block title %}{{ category_name }}{% endblock %}
+
+{% block content %}
+
+<div class="row">
+    <div class="col-12">
+
+        <div class="card p-4 mb-4">
+            <h4>{{ category_name }} - Add Work</h4>
+
+            <form method="POST">
+                <label class="fw-bold mt-2">Type of Work</label>
+
+                <select name="work" class="form-select mb-3" required>
+                    {% if category_name == "Hardware" %}
+                        <option>Mouse/Keyboard Not Working</option>
+                        <option>BIOS & UEFI Issue</option>
+                        <option>System Configuration</option>
+                        <option>Projector Issue</option>
+                        <option>RAM/Memory Issue</option>
+                        <option>Hard Disk Issue</option>
+                        <option>Monitor Display Issue</option>
+                        <option>System Overheating</option>
+                        <option>Power Cable Not Working</option>
+                        <option>PC Not Working</option>
+                        <option>Hardware Issue Warranty Claim </option>
+                        <option>IoT Components Issued and Collected</option>
+                        <option>VGA & HDMI Cable Issues</option>
+                        <option>Projector Remote Issues</option>
+                        <option>Network Cable Jack Issue</option>
+                        <option>Others</option>
+                        {% elif category_name == "Software" %}
+                        <option>OS Installation</option>
+                        <option>Software Installation</option>
+                        <option>Software Updates</option>
+                        <option>Software Hanging/Freezing</option>
+                        <option>OS Crash Fix</option>
+                        <option>Software Configration</option>
+                        <option>Execution Error related issues</option>
+                        <option>Programming  language Compilation related issues</option>
+                        <option>Neo Brwoser Lanch Issues</option>
+                        <option>Supporting to Students File Uploding</option>
+                        <option>login issue</option>
+                        <option>Software Unistallation,Reinstall</option>
+                        <option>Others</option>
+                    {% elif category_name == "Network" %}
+                        <option>File Transfering</option>
+                        <option>IP Configring</option>
+                        <option>Internet Issue</option>
+                        <option>Slow Internet Connection</option>
+                        <option>Server Management</option>
+                        <option>Z Drive Password Reset</option>
+                        <option>Remote Shutdown</option>
+                        <option>Antivirus Updates</option>
+                        <option>Domain Group Adding</option>
+                        <option>Domain User Creation</option>
+                        <option>Oracle User Creation</option>
+                        <option>Oracle User Password Reset</option>
+                        <option>FTP File Sharing</option>
+                        <option>CTS Help Desk Ticket Creation</option>
+                        <option>LAN Cable Crimping</option>
+                        <option>Others</option>                        
+                    {% elif category_name == "Training" %}
+                        <option>Networking Training</option>
+                        <option>Programming Language Training</option>
+                        <option>Other training Programs</option>
+                        <option>Others</option>
+                    {% elif category_name == "Shifting" %}
+                        <option>System Shifting</option>
+                        <option>Things Shifting</option>
+                        <option>Others</option>
+                    {% elif category_name == "Maintenance" %}
+                        <option>System Maintanace</option>
+                        <option>Power Cable &  VGA LAN Tag </option>
+                        <option>Data Backup Works</option>
+                        <option>Slow Perfomance</option>
+                        <option>Temporary Files Delete</option>
+                        <option>User profile Deleting</option>
+                        <option>IOT Componance Maintance</option>
+                        <option>Stock Maintance</option>
+                        <option>Lab Related Purchase </option>
+                        <option>AC Issue-Ticket Creation</option>
+                        <option>Electric Issue-Ticket Creation</option>
+                        <option>Carpentry-Ticket Creation</option>
+                        <option>Lab sweeping & Mapping</option>
+                        <option>Others</option>
+                    {% elif category_name == "Other Responsibilities" %}        
+                        
+                        <option>Softskills Exam Dutys</option>
+                        <option>NPTEL Exam Duty</option>
+                        <option>VITEEE/VITREE Duty's</option>
+                        <option>UG/PG Admission Duty</option>
+                        <option>Rivera Duty</option>
+                        <option>CAT Exam Duty</option>
+                        <option>FAT Exam Duty</option>
+                        <option>Dinner Dutys</option>
+                        <option>CMC Exam Duty</option>
+                        <option>Hakathon Dutys</option>
+                        <option>Student Course Registration</option>
+                        <option>FDP Support</option>
+                        <option>Gravitas Lab Support</option>
+                        <option>System Movements</option>
+                        <option>Equipments Movents</option>
+                        <option>New Lab Configuration Support</option>  
+                        <option>Others</option>
+                    {% endif %}
+                    
+                </select>
+
+                <!-- COMMENT FOR ALL (ADMIN + STAFF) -->
+                <label class="fw-bold">Comment</label>
+                <input type="text" name="comment" class="form-control mb-3"
+                       placeholder="Enter comment (optional)">
+
+                <button class="btn btn-primary">💾 Save</button>
+                <a href="{{ url_for('dashboard') }}" class="btn btn-secondary ms-2">⬅ Back</a>
+            </form>
+        </div>
+
+        <div class="card p-3">
+            <h5>Saved Records</h5>
+
+            <table class="table table-bordered table-sm mt-3">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>User</th>
+                        <th>Work</th>
+                        <th>Comment</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for r in records %}
+                    <tr>
+                        <td>{{ r.date }}</td>
+                        <td>{{ r.time }}</td>
+                        <td>{{ r.username }}</td>
+                        <td>{{ r.work }}</td>
+                        <td>{{ r.comment or '-' }}</td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="5" class="text-center">No data</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
